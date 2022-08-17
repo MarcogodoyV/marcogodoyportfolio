@@ -1,0 +1,54 @@
+{
+    "data": [
+        {
+            "mainInfo": {
+                "icon": "uil uil-brackets-curly skills__icon",
+                "title": "Frontend developer",
+                "subtitle": "1 year of experience"
+            },
+            "tools": [
+                {
+                    "tool": "HTML",
+                    "percentage": "95"
+                },
+                {
+                    "tool": "CSS",
+                    "percentage": "90"
+                },
+                {
+                    "tool": "JavaScript",
+                    "percentage": "95"
+                },
+                {
+                    "tool": "React",
+                    "percentage": "85"
+                }
+            ]
+        },
+        {
+            "mainInfo": {
+                "icon": "uil uil-server-connection skills__icon",
+                "title": "Backend developer",
+                "subtitle": "Less than 1 year of experience"
+            },
+            "tools": [
+                {
+                    "tool": "Python",
+                    "percentage": "75"
+                },
+                {
+                    "tool": "NodeJS",
+                    "percentage": "85"
+                },
+                {
+                    "tool": "Java",
+                    "percentage": "30"
+                },
+                {
+                    "tool": "SQL",
+                    "percentage": "70"
+                }
+            ]
+        }
+    ]
+}
