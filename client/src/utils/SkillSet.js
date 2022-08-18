@@ -15,7 +15,7 @@ export const SkillSet = (props) => {
     return (
         <div className={`skills__content ${toggleClass}`}>
             <div className="skills__header" onClick={() => setToggle(s => !s)}>
-                <i className={`${icon} skills_icon`}></i>
+                <i className={`${icon} skills__icon`}></i>
 
                 <div>
                     <h1 className="skills__title">{title}</h1>
