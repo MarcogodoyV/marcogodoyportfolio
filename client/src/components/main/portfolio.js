@@ -4,7 +4,7 @@ export const Portfolio = () => {
     const portfolioData = require("../../utils/portfolioInfo.json").data
     return (
         <section className="portfolio section" id="portfolio">
-                <h2 className="section__title">Portfolio</h2>
+                <h1 className="section__title">Portfolio</h1>
                 <span className="section__subtitle">Work I have done</span>
 
                 <div className="portfolio__container container">

@@ -3,7 +3,7 @@ export const PortfolioSet = (props) => {
     const {title,description,imgLink,appLink} = props.data
     return(
         <>
-            <img src={imgLink} alt="" className="portfolio__img"></img>
+            <img src={imgLink} className="portfolio__img" alt={title}></img>
             <div className="portfolio__data">
                 <h3 className="portfolio__title">{title}</h3>
                 <p className="portfolio__description">

@@ -6,7 +6,7 @@ export const Skills = () => {
     
     return (
         <section className="skills__section section" id="skills">
-                <h2 className="section__title">Skills</h2>
+                <h1 className="section__title">Skills</h1>
                 <span className="section__subtitle">My technical level</span>
                 <div className="skill__container container grid">
                     {skills.map(d => {

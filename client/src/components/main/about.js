@@ -1,10 +1,10 @@
 const About = () => {
     return (
         <section className="about section" id="about">
-                <h2 className="section__title">About me</h2>
+                <h1 className="section__title">About me</h1>
                 <span className="section__subtitle">Who I am</span>
                 <div className="about__container container grid">
-                    <img src={require("../../assets/images/about.jpeg")} alt="" className="about__img"></img>
+                    <img src={require("../../assets/images/about.jpeg")} alt="Imagen of myself" className="about__img"></img>
                     <div className="about__data">
                         <p className="about__description">I'm an electronic engineer from Venezuela living in Argentina. In 2020 I started learning web development in my free time, and since then I got more and more involved in the area, to the point in which I decided to switch my career path and start freelancing. Now I'm able to effectively self-manage during independent projects, and collaborate in a team setting in order to get the work done in the best way possible.</p>
                         <div className="about__info">
@@ -18,7 +18,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className="about__buttons">
-                            <a href={require("../../assets/cv.pdf")} target="_blank" rel="noreferrer" className="button button--flex">Download CV<i className="uil uil-file-download button__icon"></i></a>
+                            <a href={require("../../assets/cv.pdf")} aria-label="Download my curriculum in PDF" target="_blank" rel="noreferrer" className="button button--flex">Download CV<i className="uil uil-file-download button__icon"></i></a>
                         </div>
                     </div>
                 </div>

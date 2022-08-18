@@ -18,7 +18,7 @@ export const SkillSet = (props) => {
                 <i className={`${icon} skills__icon`}></i>
 
                 <div>
-                    <h1 className="skills__title">{title}</h1>
+                    <h2 className="skills__title">{title}</h2>
                     <span className="skills__subtitle">{subtitle}</span>
                 </div>
 
@@ -31,7 +31,7 @@ export const SkillSet = (props) => {
                     return(
                         <div className="skills__data" key={index}>
                             <div className="skills__titles">
-                                <h3 className="skills__name">{props.tool}</h3>
+                                <p className="skills__name">{props.tool}</p>
                             </div>
                             <div className="skills__bar">
                                 <span className="skills__percentage" style={{width:props.percentage+"%"}}>

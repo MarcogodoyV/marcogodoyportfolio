@@ -4,13 +4,13 @@ const Home = () => {
                 <div className="home__container container grid">
                     <div className="home__content grid">
                         <div className="home__social">
-                            <a href="https://www.linkedin.com/in/marcogdv/" target="_blank" rel="noreferrer" className="home__social-icon">
+                            <a href="https://www.linkedin.com/in/marcogdv/" aria-label="Link to my LinkedIn profile" target="_blank" rel="noreferrer" className="home__social-icon">
                                 <i className="uil uil-linkedin"></i>
                             </a>
-                            <a href="https://github.com/MarcogodoyV" target="_blank" rel="noreferrer" className="home__social-icon">
+                            <a href="https://github.com/MarcogodoyV" aria-label="Link to my GitHub profile" target="_blank" rel="noreferrer" className="home__social-icon">
                                 <i className="uil uil-github"></i>
                             </a>
-                            <a href="https://twitter.com/marcogdv" target="_blank" rel="noreferrer" className="home__social-icon">
+                            <a href="https://twitter.com/marcogdv" aria-label="Link to my Twitter profile" target="_blank" rel="noreferrer" className="home__social-icon">
                                 <i className="uil uil-twitter"></i>
                             </a>
                         </div>
@@ -27,7 +27,7 @@ const Home = () => {
                         </div>
                         <div className="home__data">
                             <h1 className="home__title">Hello!, I&apos;m Marco</h1>
-                            <h3 className="home__subtitle">Web Developer</h3>
+                            <p className="home__subtitle">Web Developer</p>
                             <p className='home__description'>Passionate self taught web developer, bilingual (Spanish and English). Equipped with a diverse and promising skill set and knowledge to make your ideas become real.</p>
                             <a href="#contact" className="button button--flex">
                                Contact me! <i className="uil uil-message button__icon"></i>

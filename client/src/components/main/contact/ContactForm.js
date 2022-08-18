@@ -61,25 +61,30 @@ export const ContactForm = () => {
     <form action="" id="form__field" className="contact__form grid">
         <div className="contact__inputs grid">
             <div className="contact__content">
-                <label htmlFor="" className="contact_label">Name</label>
-                <input onChange={handleChange} type="text" className="contact__input" name="name"/>
+                <label htmlFor="name" className="contact_label">Name
+                <input onChange={handleChange} id="name" type="text" className="contact__input" name="name"/>
+                </label>
             </div>
             <div className="contact__content">
-                <label htmlFor="" className="contact_label">Email</label>
-                <input onChange={handleChange} type="text" className="contact__input" name="email"/>
+                <label htmlFor="email" className="contact_label">Email
+                <input onChange={handleChange} id="email" type="text" className="contact__input" name="email"/>
+                </label>
             </div>
         </div>
         <div className="contact__content">
-            <label htmlFor="" className="contact_label">Organization</label>
-            <input onChange={handleChange} type="text" className="contact__input" name="organization"/>
+            <label htmlFor="organization" className="contact_label">Organization
+            <input onChange={handleChange} id="organization" type="text" className="contact__input" name="organization"/>
+            </label>        
         </div>
         <div className="contact__content">
-            <label htmlFor="" className="contact_label">Subject</label>
-            <input onChange={handleChange} type="text" className="contact__input" name="subject"/>
+            <label htmlFor="subject" className="contact_label">Subject
+            <input onChange={handleChange} id="subject" type="text" className="contact__input" name="subject"/>
+            </label>
         </div>
         <div className="contact__content">
-            <label htmlFor="" className="contact_label">Message</label>
-            <textarea onChange={handleChange} id="" cols="0" rows="7" className="contact__input" name="message"/>
+            <label htmlFor="message" className="message_label">Message
+            <textarea onChange={handleChange} id="message" cols="0" rows="7" className="contact__input" name="message"/>
+            </label>        
         </div>
         <div>
             <a href="#contact" className="button button--flex" onClick={() => FormSubmit()}>

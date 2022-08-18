@@ -6,7 +6,7 @@ export const ContactInfo = (props) => {
         <div className="contact__information">
             <i className={`${icon} contact__icon`}></i>
             <div>
-                <h3 className="contact__title">{title}</h3>
+                <p className="contact__title">{title}</p>
                 <span className="contact__subtitle">{subtitle}</span>
             </div>
         </div>
