@@ -469,8 +469,13 @@ img {
 
 .portfolio__content,
 .about__data,
-.home__content {
-  padding: 0 1.5rem;
+.home__content,
+.skills__content,
+.form__field,
+.contact__container,
+.about__img,
+.footer__container {
+  padding: 0 1.2rem;
 }
 
 .portfolio__img {
@@ -657,7 +662,6 @@ img {
     justify-self: center;
   }
 
-  .about__container,
   .skill__container,
   .contact__container,
   .footer__container {
@@ -691,8 +695,8 @@ img {
 
   .header,
   .main,
-  .footer__container {
-    padding: 0 1rem;
+  .footer {
+    padding: 0 1.5rem;
   }
 
   .nav {
@@ -733,11 +737,12 @@ img {
   }
 
   .about__container {
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 5rem;
   }
 
   .about__img {
-    width: 400px;
+    max-width: 400px;
   }
 
   .about__info {
@@ -757,11 +762,12 @@ img {
   }
 
   .footer__container {
-    grid-template-columns: repeat(3, 1fr)
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 1.1rem;
   }
 
   .footer__bg {
-    padding: 3rem 0 3.5rem;
+    padding: 3rem 1.5rem 3.5rem;
   }
 
   .footer__links {
@@ -782,8 +788,7 @@ img {
 @media screen and (min-width: 1024px) {
 
   .header,
-  .main,
-  .footer__container {
+  .main {
     padding: 0;
   }
 
