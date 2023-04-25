@@ -8,7 +8,7 @@ export const Portfolio = () => {
                 <span className="section__subtitle">Work I have done</span>
 
                 <div className="portfolio__container container">
-                    <div className="portfolio__content grid">
+                    <div className="portfolio__content">
                         {portfolioData.map((d) => <PortfolioSet data={d} key={d.title}/>)}
 
                     </div>

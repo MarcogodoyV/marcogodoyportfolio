@@ -3,8 +3,14 @@
         {
             "title": "Portfolio",
             "description": "Portfolio made in ReactJS",
-            "imgLink": "https://repository-images.githubusercontent.com/524286894/d5b827c2-0374-4f53-b6ea-c4037a7eca3f",
+            "imgLink": "https://repository-images.githubusercontent.com/525984248/52ab1a5c-8893-4097-af31-425bb5f22fc4",
             "appLink": "#home"
+        },
+        {
+            "title": "Luz Azul Website",
+            "description": "Website Made in ReactJS and laravel 9",
+            "imgLink": "https://repository-images.githubusercontent.com/632656079/31a31f78-0687-420d-8fb0-203ad5b67e8a",
+            "appLink": "https://luz-azul.com.ar/"
         }
     ]
 }

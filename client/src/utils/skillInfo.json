@@ -29,24 +29,28 @@
             "mainInfo": {
                 "icon": "uil uil-server-connection skills__icon",
                 "title": "Backend developer",
-                "subtitle": "Less than 1 year of experience"
+                "subtitle": "1 year of experience"
             },
             "tools": [
                 {
                     "tool": "Python",
-                    "percentage": "75"
+                    "percentage": "70"
                 },
                 {
                     "tool": "NodeJS",
                     "percentage": "85"
                 },
                 {
-                    "tool": "Java",
-                    "percentage": "30"
+                    "tool": "PHP",
+                    "percentage": "85"
                 },
                 {
                     "tool": "SQL",
-                    "percentage": "70"
+                    "percentage": "75"
+                },
+                {
+                    "tool": "Laravel",
+                    "percentage": "85"
                 }
             ]
         }

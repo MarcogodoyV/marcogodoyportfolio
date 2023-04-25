@@ -28,7 +28,8 @@ const Home = () => {
                         <div className="home__data">
                             <h1 className="home__title">Hello!, I&apos;m Marco</h1>
                             <p className="home__subtitle">Web Developer</p>
-                            <p className='home__description'>Passionate self taught web developer, bilingual (Spanish and English). Equipped with a diverse and promising skill set and knowledge to make your ideas become real.</p>
+                            <p className='home__description'>
+                                Passionate self taught web developer, bilingual (Spanish and English). Equipped with a diverse and promising skill set and knowledge to make your ideas become real.</p>
                             <a href="#contact" className="button button--flex">
                                Contact me! <i className="uil uil-message button__icon"></i>
                             </a>
