@@ -20,7 +20,8 @@ const About = () => {
                             </div>
                         </div>
                         <div className="about__buttons">
-                            <a href={require("../../assets/CV.pdf")} aria-label="Download my curriculum in PDF" target="_blank" rel="noreferrer" className="button button--flex">Download CV<i className="uil uil-file-download button__icon"></i></a>
+                            <a href={require("../../assets/MarcoGodoy[ENG].pdf")} aria-label="Download my curriculum in PDF" target="_blank" rel="noreferrer" className="button button--flex">Download CV (ENG)<i className="uil uil-file-download button__icon"></i></a>
+                            <a href={require("../../assets/MarcoGodoy[SPA].pdf")} aria-label="Download my curriculum in PDF" target="_blank" rel="noreferrer" className="button button--flex">Download CV (SPA)<i className="uil uil-file-download button__icon"></i></a>
                         </div>
                     </div>
                 </div>
